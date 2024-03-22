@@ -5,8 +5,14 @@ function canDelete(num) {
     );
 };
 
-function filterArray(numb,fn){
-    let result = [];
-    return result = numb.filter(num =>fn(num));
-    }''
+function filterArray(arr,fn){
+    const result = [];
+    for (let i = 0; i < arr.length; i++){
+        if(!fn(arr[i])){
+            result.push(arr[i])
+        };
+    };
+    return result;
+    };
+
 
