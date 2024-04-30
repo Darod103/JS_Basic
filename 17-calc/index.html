@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Калькулятор</title>
-  </head>
-  <body>
-    <div class="container">
-        <div class="panel"> </div>
-      <div class="wraper_input">
-        <input type="number" placeholder="Введите первое число"  required/>
-        <input type="number" placeholder="Введите второе число" required/>
-      </div>
-      <div class="wrapper_button">
-        <button>*</button>
-        <button>/</button>
-        <button>+</button>
-        <button>-</button>
-        <button>=</button>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Калькулятор</title>
+</head>
+<body>
+  <div class="container">
+      <div class="panel" id="result">0</div>
+    <div class="wrapper_input">
+      <input type="number" id="number1" placeholder="Введите первое число">
+      <input type="number" id="number2" placeholder="Введите второе число">
     </div>
-  </body>
+    <div class="wrapper_button" onclick ="displayResult(event)">
+      <button >C</button>
+      <button  > =</button>
+      <button > *</button>
+      <button > /</button>
+      <button > +</button>
+      <button > -</button>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>

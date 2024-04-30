@@ -36,7 +36,16 @@
     border-radius: 5px;
     border: 1px solid #ccc;
   }
-  
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .wrapper_button {
+    display: flex;
+  }
   .wrapper_button button {
     width: calc(20% - 6px);
     padding: 10px;
@@ -45,6 +54,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 50px;
+    height: 50px;
   }
   
   .wrapper_button button:hover {
