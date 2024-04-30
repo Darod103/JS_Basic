@@ -58,12 +58,14 @@ const toDoList = {
 
 }
 
-toDoList.addTask('Выгулять собаку',1)
-toDoList.addTask('Помыть посуду',2)
-toDoList.addTask('Заправить постель',3)
-toDoList.sortTask("id",false)
-toDoList.sortTask('priority',true)
-toDoList.sortTask('test',)
-toDoList.updateTask(2,'Помыть полы',2)
-toDoList.removeTask(1)
-console.log(toDoList.tasks)
+// toDoList.addTask('Выгулять собаку',1);
+// toDoList.addTask('Помыть посуду',2);
+// toDoList.addTask('Заправить постель',3);
+// toDoList.sortTask("id",false);
+// toDoList.sortTask('priority',true);
+// toDoList.sortTask('test',);
+// toDoList.updateTask(2,'Помыть полы',2);
+// toDoList.removeTask(1);
+// console.log(toDoList.tasks);
+
+export {toDoList};
