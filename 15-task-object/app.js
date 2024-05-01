@@ -58,8 +58,8 @@ const toDoList = {
 
 }
 
-// toDoList.addTask('Выгулять собаку',1);
-// toDoList.addTask('Помыть посуду',2);
+toDoList.addTask('Выгулять собаку',1);
+toDoList.addTask('Помыть посуду',2);
 // toDoList.addTask('Заправить постель',3);
 // toDoList.sortTask("id",false);
 // toDoList.sortTask('priority',true);
@@ -68,4 +68,4 @@ const toDoList = {
 // toDoList.removeTask(1);
 // console.log(toDoList.tasks);
 
-export {toDoList};
+// export {toDoList};
